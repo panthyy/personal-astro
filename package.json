@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build && cp -r src/functions dist",
+    "build": " astro build && cp -r src/functions dist",
     "preview": "astro preview"
   },
   "devDependencies": {
