@@ -7,7 +7,7 @@ function Hero() {
         Fahad Alhatshami
       </h1>
 
-      <p className="dark:text-[#F0F0F0]">
+      <p className="dark:text-[#F0F0F0] ">
        Lets dive into my childhood, I&apos;ve broken more things
         as a child than I can count. from game-boy&apos;s to my mother&apos;s computer.
         My curiosity drove me to discover and learn how
@@ -19,8 +19,7 @@ function Hero() {
       </p>
       <div className=" mt-[60px] flex items-center gap-3">
         <p className=" text-[24px]">Say hi</p>
-        <a href={"https://www.linkedin.com/in/fahadalhatshami/"}>
-   </a>
+        <a href={"https://www.linkedin.com/in/fahadalhatshami/"}>---&gt;</a>
       </div>
     </section>
   );

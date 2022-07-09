@@ -4,6 +4,7 @@ export * from "./Base"
 export * from "./Hero"
 export * from "./Experience"
 export * from "./FeaturedProjects"
+export * from "./Tags"
 
 
 export const Divider = () => {

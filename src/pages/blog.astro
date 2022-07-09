@@ -1,15 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { Base, Header, Hero, Experience, Footer, FeaturedProjects, Divider } from '../components';
+import Tags from '../components/Tags';
 ---
 
 <Layout title="Welcome">
 	<Base>
 	<Header />
-	<Hero />
-	<Experience client:load />
-	<Divider />
-	<FeaturedProjects client:load/>
+	<h1>Blog</h1>
+	<Tags/>
 	<Divider />
 	<Footer />
 
@@ -23,6 +22,8 @@ import { Base, Header, Hero, Experience, Footer, FeaturedProjects, Divider } fro
 
 	h1 {
 		margin: 2rem 0;
+		font-size: 2.5rem;
+		font-weight: 700;
 	}
 
 	main {
