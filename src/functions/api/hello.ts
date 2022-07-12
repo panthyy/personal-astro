@@ -1,6 +1,5 @@
 export async function onRequestGet(request:Request) {
     const dateToday = new Date()
-
     const html = `
     
     <!DOCTYPE html>
@@ -8,7 +7,7 @@ export async function onRequestGet(request:Request) {
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=deviceg-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
