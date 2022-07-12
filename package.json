@@ -16,6 +16,8 @@
     "react-dom": "^17.0.2 || ^18.0.0"
   },
   "dependencies": {
-    "next-themes": "^0.2.0"
+    "animejs": "^3.2.1",
+    "next-themes": "^0.2.0",
+    "react-waypoint": "^10.3.0"
   }
 }
