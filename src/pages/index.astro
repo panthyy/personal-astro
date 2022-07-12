@@ -1,6 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { Base, Header, Hero, Experience, Footer, FeaturedProjects, Divider } from '../components';
+
+
 ---
 
 <Layout title="Welcome">
@@ -9,7 +11,7 @@ import { Base, Header, Hero, Experience, Footer, FeaturedProjects, Divider } fro
 	<Hero />
 	<Experience client:load />
 	<Divider />
-	<FeaturedProjects client:load/>
+	<FeaturedProjects client:load />
 	<Divider />
 	<Footer />
 
