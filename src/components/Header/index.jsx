@@ -11,10 +11,6 @@ function Header() {
       text: "Resume",
     },
     {
-      href: "/blog",
-      text: "Blog",
-    },
-    {
       href: "#Contact",
       text: "Contact",
     },
