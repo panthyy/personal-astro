@@ -1,4 +1,4 @@
-import {ImArrowRight2} from "react-icons/im"
+import {ImArrowRight2} from "react-icons/im/index.js"
 function Hero() {
   return (
     <section className="flex flex-col ">
