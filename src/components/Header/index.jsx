@@ -26,7 +26,7 @@ function Header() {
         <div className=" flex h-[29px] justify-between  ">
           <div className="text-[18px] font-[Inter] ">
             <a className="" href="/">
-              BSCE Student at Lund university
+              <p>BSCE Student at Lund university</p>
             </a>
           </div>
           <nav className=" flex Nav gap-7 items-center justify-center ">

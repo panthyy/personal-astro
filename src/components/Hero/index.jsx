@@ -1,4 +1,4 @@
-
+import {ImArrowRight2} from "react-icons/im"
 function Hero() {
   return (
     <section className="flex flex-col ">
@@ -19,7 +19,7 @@ function Hero() {
       </p>
       <div className=" mt-[60px] flex items-center gap-3">
         <p className=" text-[24px]">Say hi</p>
-        <a href={"https://www.linkedin.com/in/fahadalhatshami/"}>---&gt;</a>
+        <a href={"https://www.linkedin.com/in/fahadalhatshami/"}><ImArrowRight2 color="lightblue" size={30}></ImArrowRight2></a>
       </div>
     </section>
   );
